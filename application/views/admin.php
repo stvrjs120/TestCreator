@@ -3,20 +3,12 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title><?php echo $title; ?></title>
-		<link type="text/css" href="<?php echo base_url();?>assets/css/dba/jquery-ui.css" rel="Stylesheet" />  
+		<title><?php echo $title; ?></title>  
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery-ui.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/script.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/normalize.css" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css" type="text/css" media="screen" charset="utf-8">
-		
-		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/treeview/jquery.treeview.css" />
-		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/treeview/screen.css" />
-		<script src="<?php echo base_url();?>assets/js/jquery.treeview.js" type="text/javascript"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>assets/js/demo.js"></script>
 	</head>
-
 	<body>
 		<div id="wrapper">
 			<div id="header">
@@ -33,8 +25,8 @@
 						</div>
 						<ul id="user-links">
 							<li>
-								<a title="Create Connection" id="new_conn" href="#">
-									<img alt="Connect" src="<?php echo base_url();?>assets/img/connect.png" height="20">
+								<a title="Create Test" id="new_conn" href="#">
+									<img alt="Connect" src="<?php echo base_url();?>assets/img/test.png" height="20">
 								</a>
 							</li>
 							<li>

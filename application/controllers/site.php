@@ -1,9 +1,5 @@
 <?php
-/**
- * Description of site
- *
- * @author StvRjs.K12
- */
+
 class Site extends CI_Controller{
     
 	public function index() {    
