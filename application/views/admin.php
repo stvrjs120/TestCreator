@@ -4,7 +4,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title><?php echo $title; ?></title>  
+        <link type="text/css" href="<?php echo base_url();?>assets/css/dialog/jquery-ui.css" rel="Stylesheet" />  
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery-ui.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/script.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/normalize.css" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css" type="text/css" media="screen" charset="utf-8">

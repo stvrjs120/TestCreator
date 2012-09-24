@@ -130,6 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     color: #636363;
     font-size: 12px;
+    margin-top: 20px;
 }
 
 #title-test {
@@ -140,38 +141,8 @@ h1, h2, h3, h4, h5, h6 {
     background-image: -webkit-linear-gradient(top,#616161 0,#3C3C3C 100%);
 }
 
-#testAdd {
+#quest-Form, #creat-Test {
     display: none;
-}
-
-input[type=text] {
-    display: block;
-    margin: 0 0 1em 0;
-    width: 170px;
-    border: 5px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    padding: 1em;
-    font-size: 12px;
-    box-shadow: 0 1px 1px gray;
-    -moz-box-shadow: 0 1px 1px 0 gray;
-    -webkit-box-shadow: 0 1px 1px 0 gray;
-}
-
-input[type=submit], form a, #noTest a {
-    border: none;
-    margin-right: 1em;
-    padding: 6px;
-    text-decoration: none;
-    font-size: 12px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: #990000;
-    color: white;
-    box-shadow: 0 1px 1px 0 black;
-    -moz-box-shadow: 0 1px 1px 0 black;
-    -webkit-box-shadow: 0 1px 1px 0 black;
-    font-weight: bold;
 }
 
 .error {
