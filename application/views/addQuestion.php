@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title><?php echo $title; ?></title>  
-	</head>
+<?php 
+	$form = array(
+			'class'	=>	'form',
+			'id'	=>	'add-question',
+			'name'	=>	'add-question'
+			);
 	
-	<body>
-		<div></div>
-	</body>
-</html>
+	$iniquest = array(
+			'name'	=>	'iniquest',
+			'id'	=>	'iniquest',
+			'value'	=>	''
+			);
+	
+	//aqui va opción de poner multimedia o texto
+	
+	$question = array(
+			'name'	=>	'question',
+			'id'	=>	'question',
+			'rows'	=>	'5',
+			'cols'	=>	'40'
+			);
+	
+	$submit = array(
+			'name'	=>	'submit',
+			'type'	=>	'submit',
+			'value'	=>	'Add'
+	);
+?>
